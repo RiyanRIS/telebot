@@ -1,13 +1,13 @@
 <?php
 
 require_once __DIR__.'/vendor/autoload.php';
-
+// mysql://b87a5511b2a1d5:5bb788dc@us-cdbr-east-03.cleardb.com/heroku_102927024839192?reconnect=true
 $settings = [
   'database' => [
-    'host' => 'localhost',
-    'dbName' => 'bott',
-    'username' => 'riyanris',
-    'password' => '1234',
+    'host' => 'us-cdbr-east-03.cleardb.com',
+    'dbName' => 'heroku_102927024839192',
+    'username' => 'b87a5511b2a1d5',
+    'password' => '5bb788dc',
     'tableName' => 'users',
   ],
   'botUsername' => 'riyantesBot',
