@@ -1,0 +1,32 @@
+{
+  "name": "neneone/snapebot",
+  "description": "PHP class-based framework to create Telegram Bots using webhook.",
+  "type": "project",
+  "license": "AGPL-3.0-only",
+  "keywords": [
+    "telegram",
+    "bot",
+    "webhook"
+  ],
+  "authors": [
+    {
+      "name": "Enea Dolcini",
+      "email": "eneadolcini@gmail.com",
+      "homepage": "https://neneone.cf",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-curl": "*",
+    "ext-mbstring": "*",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "neneone\\SnapeBot\\": "src/"
+    }
+  }
+}
